@@ -1,3 +1,4 @@
+to run rails application on windows,please first install ruby and rails and other utilities from http://railsinstaller.org/ .After finishing installation, open command line, change to the directory of this repository, use rails s -p 8080 to start rails application.Then open http://localhost:8080/ in your browser.
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
