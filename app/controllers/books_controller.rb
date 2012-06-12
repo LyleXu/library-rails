@@ -18,6 +18,7 @@ class BooksController < ApplicationController
 	def create
 		@book = Book.new(params[:book])
 		@book.save
+		flash[:notice] = "book #{@book.name} was successfully create"
 
 		redirect_to :action => :index
 	end
@@ -35,6 +36,7 @@ class BooksController < ApplicationController
 	def update
 		@book = Book.find(params[:id])
 		@book.update_attributes(params[:book])
+		flash[:notice] = "book #{@book.name} was successfully updated"
 
 		redirect_to :action => :show, :id => @book
 	end
@@ -42,6 +44,7 @@ class BooksController < ApplicationController
 	def destroy
 		@book = Book.new(params[:id])
 		@book.destroy
+		flash[:alert] = "book #{@book.name} was successfully deleted"
 
 		redirect_to :action => :index
 	end
