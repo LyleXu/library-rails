@@ -1,10 +1,18 @@
 class BooksController < ApplicationController
 	def index
 		@books = Book.all
+		@page_title = 'index page'
+
+		respond_to do |format|
+			format.html # index.html.erb
+			format.json { render :json => @books.to_json }
+			format.xml { render :xml => @books.to_xml }
+		end
 	end
 
 	def new
 		@book = Book.new
+		@page_title = 'new Book page'
 	end
 
 	def create
@@ -16,6 +24,7 @@ class BooksController < ApplicationController
 
 	def show
 		@book = Book.find(params[:id])
+		@page_title = "#{@book.name} detail page"
 	end
 
 	def edit

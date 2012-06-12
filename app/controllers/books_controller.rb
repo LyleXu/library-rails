@@ -1,6 +1,7 @@
 class BooksController < ApplicationController
 	def index
 		@books = Book.all
+		@page_title = 'index page'
 
 		respond_to do |format|
 			format.html # index.html.erb
@@ -11,6 +12,7 @@ class BooksController < ApplicationController
 
 	def new
 		@book = Book.new
+		@page_title = 'new Book page'
 	end
 
 	def create
@@ -22,10 +24,12 @@ class BooksController < ApplicationController
 
 	def show
 		@book = Book.find(params[:id])
+		@page_title = "#{@book.name} detail page"
 	end
 
 	def edit
 		@book = Book.find(params[:id])
+		@page_title = "edit #{@book.name}"
 	end
 
 	def update
