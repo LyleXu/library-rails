@@ -1,4 +1,5 @@
 class BooksController < ApplicationController
+  before_filter :find_book, :only => [ :show, :edit, :update, :destroy ]
 	def index
 		@books = Book.all
 		@page_title = 'index page'
@@ -24,17 +25,17 @@ class BooksController < ApplicationController
 	end
 
 	def show
-		@book = Book.find(params[:id])
+		#@book = Book.find(params[:id])
 		@page_title = "#{@book.name} detail page"
 	end
 
 	def edit
-		@book = Book.find(params[:id])
+		#@book = Book.find(params[:id])
 		@page_title = "edit #{@book.name}"
 	end
 
 	def update
-		@book = Book.find(params[:id])
+		#@book = Book.find(params[:id])
 		@book.update_attributes(params[:book])
 		flash[:notice] = "book #{@book.name} was successfully updated"
 
@@ -42,10 +43,14 @@ class BooksController < ApplicationController
 	end
 
 	def destroy
-		@book = Book.new(params[:id])
+		#@book = Book.find(params[:id])
 		@book.destroy
 		flash[:alert] = "book #{@book.name} was successfully deleted"
 
 		redirect_to :action => :index
 	end
+
+  def find_book
+    @book = Book.find(params[:id])
+  end
 end
