@@ -1,8 +1,8 @@
 class BooksController < ApplicationController
   before_filter :find_book, :only => [ :show, :edit, :update, :destroy ]
 	def index
-		@books = Book.all
-		@page_title = 'index page'
+		@books = Book.page(params[:page]).per(5)
+		@page_title = "index page, page #{params[:page]}"
 
 		respond_to do |format|
 			format.html # index.html.erb
