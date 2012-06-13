@@ -1531,6 +1531,7 @@ Served asset /jquery_ujs.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-12 16:54:36 +0800
 Served asset /application.js - 304 Not Modified (0ms)
+<<<<<<< HEAD
   [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
 Migrating to CreateBooks (20120612060136)
 Migrating to CreateUsers (20120613131052)
@@ -1543,3 +1544,1072 @@ Migrating to CreateUsers (20120613131052)
   [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("books")[0m
   [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+=======
+
+
+Started GET "/books" for 127.0.0.1 at 2012-06-13 11:07:30 +0800
+Processing by BooksController#index as HTML
+Completed 500 Internal Server Error in 58ms
+
+NoMethodError (undefined method `page' for #<Class:0x32a5ac0>):
+  app/controllers/books_controller.rb:4:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (167.0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-06-13 11:09:41 +0800
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (140.0ms)
+Compiled jquery.js  (3ms)  (pid 3020)
+Compiled jquery_ujs.js  (1ms)  (pid 3020)
+Compiled application.js  (138ms)  (pid 3020)
+Completed 200 OK in 574ms (Views: 574.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:09:45 +0800
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:09:45 +0800
+Served asset /books.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:09:45 +0800
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:09:45 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:09:45 +0800
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:09:45 +0800
+Served asset /books.js - 304 Not Modified (1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-06-13 11:09:49 +0800
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:09:49 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:09:49 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:09:49 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:09:49 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:09:49 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:09:49 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-06-13 11:09:50 +0800
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (1.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:09:50 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:09:50 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:09:50 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:09:50 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:09:50 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:09:50 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books/1" for 127.0.0.1 at 2012-06-13 11:09:52 +0800
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (1.0ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered books/show.html.erb within layouts/application (93.0ms)
+Completed 200 OK in 108ms (Views: 107.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:09:53 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:09:53 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:09:53 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:09:53 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:09:53 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:09:53 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2012-06-13 11:10:09 +0800
+Processing by BooksController#new as HTML
+  Rendered books/_form.html.erb (1.0ms)
+  Rendered books/new.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:09 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:10:09 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:10:09 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:09 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:09 +0800
+Served asset /books.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:09 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2012-06-13 11:10:23 +0800
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"L+clmEVFnFCCEhDJk3zThvR1TttEO70NlZwD6pSsESk=", "book"=>{"name"=>"Learn Python the hard way", "description"=>"python"}, "commit"=>"Create"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (91.0ms)[0m  [1mINSERT INTO "books" ("author", "created_at", "description", "isbn", "name", "publisher", "status", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["author", nil], ["created_at", Wed, 13 Jun 2012 03:10:23 UTC +00:00], ["description", "python"], ["isbn", nil], ["name", "Learn Python the hard way"], ["publisher", nil], ["status", nil], ["updated_at", Wed, 13 Jun 2012 03:10:23 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+Redirected to http://localhost:8080/books
+Completed 302 Found in 101ms (ActiveRecord: 97.0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-06-13 11:10:23 +0800
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (1.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:10:23 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:10:23 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:23 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:23 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:23 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:23 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2012-06-13 11:10:25 +0800
+Processing by BooksController#new as HTML
+  Rendered books/_form.html.erb (1.0ms)
+  Rendered books/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:10:25 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:10:25 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:25 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:25 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:25 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:26 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2012-06-13 11:10:38 +0800
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"L+clmEVFnFCCEhDJk3zThvR1TttEO70NlZwD6pSsESk=", "book"=>{"name"=>"Thinking in Java", "description"=>"Java"}, "commit"=>"Create"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "books" ("author", "created_at", "description", "isbn", "name", "publisher", "status", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["author", nil], ["created_at", Wed, 13 Jun 2012 03:10:38 UTC +00:00], ["description", "Java"], ["isbn", nil], ["name", "Thinking in Java"], ["publisher", nil], ["status", nil], ["updated_at", Wed, 13 Jun 2012 03:10:38 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:8080/books
+Completed 302 Found in 10ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-06-13 11:10:38 +0800
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.0ms)[0m  SELECT "books".* FROM "books" LIMIT 5 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" [0m
+  Rendered books/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:10:38 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:38 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:10:38 +0800
+Served asset /books.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:38 +0800
+Served asset /books.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:38 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:38 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2012-06-13 11:10:40 +0800
+Processing by BooksController#new as HTML
+  Rendered books/_form.html.erb (1.0ms)
+  Rendered books/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:40 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:10:40 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:40 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:10:40 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:40 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:40 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2012-06-13 11:10:47 +0800
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"L+clmEVFnFCCEhDJk3zThvR1TttEO70NlZwD6pSsESk=", "book"=>{"name"=>"Common Lisp", "description"=>"lisp"}, "commit"=>"Create"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "books" ("author", "created_at", "description", "isbn", "name", "publisher", "status", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["author", nil], ["created_at", Wed, 13 Jun 2012 03:10:47 UTC +00:00], ["description", "lisp"], ["isbn", nil], ["name", "Common Lisp"], ["publisher", nil], ["status", nil], ["updated_at", Wed, 13 Jun 2012 03:10:47 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+Redirected to http://localhost:8080/books
+Completed 302 Found in 10ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-06-13 11:10:47 +0800
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:10:47 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:10:47 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:47 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:47 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:47 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:47 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2012-06-13 11:10:49 +0800
+Processing by BooksController#new as HTML
+  Rendered books/_form.html.erb (0.0ms)
+  Rendered books/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:10:49 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:49 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:49 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:10:49 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:49 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:10:49 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2012-06-13 11:11:10 +0800
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"L+clmEVFnFCCEhDJk3zThvR1TttEO70NlZwD6pSsESk=", "book"=>{"name"=>"Algorithm introduction", "description"=>"Algorithm"}, "commit"=>"Create"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "books" ("author", "created_at", "description", "isbn", "name", "publisher", "status", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["author", nil], ["created_at", Wed, 13 Jun 2012 03:11:10 UTC +00:00], ["description", "Algorithm"], ["isbn", nil], ["name", "Algorithm introduction"], ["publisher", nil], ["status", nil], ["updated_at", Wed, 13 Jun 2012 03:11:10 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:8080/books
+Completed 302 Found in 12ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-06-13 11:11:10 +0800
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.0ms)[0m  SELECT "books".* FROM "books" LIMIT 5 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" [0m
+  Rendered books/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:11:10 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:11:10 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:10 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:10 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:10 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:10 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2012-06-13 11:11:12 +0800
+Processing by BooksController#new as HTML
+  Rendered books/_form.html.erb (1.0ms)
+  Rendered books/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:12 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:12 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:11:12 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:11:12 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:12 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:13 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2012-06-13 11:11:33 +0800
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"L+clmEVFnFCCEhDJk3zThvR1TttEO70NlZwD6pSsESk=", "book"=>{"name"=>"Getting Real", "description"=>"37signals"}, "commit"=>"Create"}
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "books" ("author", "created_at", "description", "isbn", "name", "publisher", "status", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["author", nil], ["created_at", Wed, 13 Jun 2012 03:11:33 UTC +00:00], ["description", "37signals"], ["isbn", nil], ["name", "Getting Real"], ["publisher", nil], ["status", nil], ["updated_at", Wed, 13 Jun 2012 03:11:33 UTC +00:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+Redirected to http://localhost:8080/books
+Completed 302 Found in 10ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-06-13 11:11:33 +0800
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (1.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (141.0ms)
+Completed 200 OK in 154ms (Views: 152.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:11:33 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:11:33 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:33 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:33 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:33 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:33 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/books?page=2" for 127.0.0.1 at 2012-06-13 11:11:38 +0800
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mBook Load (1.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 47ms (Views: 45.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:11:38 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:38 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:11:38 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:38 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:38 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:38 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/books?page=2" for 127.0.0.1 at 2012-06-13 11:11:43 +0800
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 65ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:11:43 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:11:43 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:43 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:43 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:43 +0800
+Served asset /books.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:43 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books?page=2" for 127.0.0.1 at 2012-06-13 11:11:44 +0800
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mBook Load (1.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 49ms (Views: 46.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:11:44 +0800
+Served asset /books.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:11:44 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:44 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:44 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:44 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:44 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/books?page=2" for 127.0.0.1 at 2012-06-13 11:11:48 +0800
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mBook Load (1.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (49.0ms)
+Completed 200 OK in 63ms (Views: 62.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:11:48 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:11:48 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:48 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:48 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:48 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:48 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books?page=2" for 127.0.0.1 at 2012-06-13 11:11:49 +0800
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:11:49 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:49 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:11:49 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:49 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:49 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:50 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books?page=2" for 127.0.0.1 at 2012-06-13 11:11:52 +0800
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:11:52 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:11:52 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:52 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:52 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:52 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:11:52 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books?page=2" for 127.0.0.1 at 2012-06-13 11:13:19 +0800
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (56.0ms)
+Completed 200 OK in 72ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:13:19 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:13:19 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:13:19 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:13:19 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:13:19 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:13:19 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books?page=2" for 127.0.0.1 at 2012-06-13 11:13:21 +0800
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:13:21 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:13:21 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:13:21 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:13:21 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:13:21 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:13:22 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books?page=2" for 127.0.0.1 at 2012-06-13 11:13:22 +0800
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:13:22 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:13:22 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:13:22 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:13:22 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:13:22 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:13:22 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/books?page=2" for 127.0.0.1 at 2012-06-13 11:13:24 +0800
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:13:25 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:13:25 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:13:25 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:13:25 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:13:25 +0800
+Served asset /books.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:13:25 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books?page=2" for 127.0.0.1 at 2012-06-13 11:14:21 +0800
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 5[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (50.0ms)
+Completed 200 OK in 62ms (Views: 59.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:14:21 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:14:21 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:21 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:21 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:21 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:22 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books?page=2" for 127.0.0.1 at 2012-06-13 11:14:40 +0800
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mBook Load (1.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 5[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 47ms (Views: 45.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:14:40 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:40 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:40 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:40 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:14:40 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:41 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/books/6" for 127.0.0.1 at 2012-06-13 11:14:45 +0800
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mBook Load (1.0ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  Rendered books/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:14:45 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:14:45 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:45 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:45 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:45 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:45 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/books/6/edit" for 127.0.0.1 at 2012-06-13 11:14:47 +0800
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mBook Load (0.0ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", "6"]]
+  Rendered books/_form.html.erb (1.0ms)
+  Rendered books/edit.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:47 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:47 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:47 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:14:47 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:47 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:14:47 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-06-13 11:14:50 +0800
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 49ms (Views: 46.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:50 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:50 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:14:50 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:50 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:14:50 +0800
+Served asset /books.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:50 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/books?page=2" for 127.0.0.1 at 2012-06-13 11:14:52 +0800
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mBook Load (1.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 5[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:14:52 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:52 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:14:52 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:52 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:52 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:52 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-06-13 11:14:53 +0800
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-13 11:14:53 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:53 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:53 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-13 11:14:53 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:53 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:53 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+>>>>>>> e75a79b9ba6100f0439044427f81d8490a5a8f73
