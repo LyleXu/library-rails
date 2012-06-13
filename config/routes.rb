@@ -2,7 +2,9 @@ Library::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
-  resources:books
+  resources:books do
+	  get 'page/:page', :action => :index, :on => :collection
+  end
   root :to => "books#index"
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
