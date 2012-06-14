@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Library::Application.routes.draw do
   resources :users
 
@@ -58,12 +57,24 @@ Library::Application.routes.draw do
   # See how all your routes lay out with "rake routes"
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
+<p>
+  <b>Tags:</b>
+  <%= @post.tags.map { |t| t.name }.join(", ") %>
+</p>
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
+<p>
+  <b>Tags:</b>
+  <%= @post.tags.map { |t| t.name }.join(", ") %>
+</p>
 end
 =======
 Library::Application.routes.draw do
   # The priority is based upon order of creation:
+<p>
+  <b>Tags:</b>
+  <%= @post.tags.map { |t| t.name }.join(", ") %>
+</p>
   # first created -> highest priority.
 
   resources:books do
@@ -124,4 +135,3 @@ Library::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
 end
->>>>>>> e75a79b9ba6100f0439044427f81d8490a5a8f73
