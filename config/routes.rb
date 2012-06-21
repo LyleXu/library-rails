@@ -1,10 +1,22 @@
 Library::Application.routes.draw do
-  resources :users
+  get "sessions/new"
+
+  resources :users do
+    resources :books, :controller => :borrows
+  end
   # first created -> highest priority.
 
   resources:books do
 	  get 'page/:page', :action => :index, :on => :collection
+	  resources :borrows
   end
+
+  resources :sessions, :only => [:new, :create, :destroy]
+  #resources :borrows
+
+  match '/signup', :to => 'users#new'
+  match '/signin', :to => 'sessions#new'
+  match '/signout', :to => 'sessions#destroy'
   root :to => "books#index"
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'

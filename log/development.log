@@ -2613,3 +2613,2242 @@ Served asset /jquery_ujs.js - 304 Not Modified (0ms)
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-13 11:14:53 +0800
 Served asset /application.js - 304 Not Modified (1ms)
 >>>>>>> e75a79b9ba6100f0439044427f81d8490a5a8f73
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-14 09:24:49 +0800
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (93.0ms)
+Compiled scaffolds.css  (74ms)  (pid 52144)
+Compiled users.css  (4ms)  (pid 52144)
+Compiled application.css  (187ms)  (pid 52144)
+Compiled users.js  (903ms)  (pid 52144)
+Compiled application.js  (1047ms)  (pid 52144)
+Completed 200 OK in 1629ms (Views: 1627.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-14 09:24:54 +0800
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-14 09:24:54 +0800
+Served asset /scaffolds.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-14 09:24:54 +0800
+Served asset /books.css - 200 OK (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-14 09:24:54 +0800
+Served asset /users.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-14 09:24:54 +0800
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-14 09:24:54 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-14 09:24:54 +0800
+Served asset /books.js - 200 OK (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-14 09:24:54 +0800
+Served asset /users.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-14 09:24:54 +0800
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2012-06-14 09:25:00 +0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-14 09:25:00 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-14 09:25:00 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-14 09:25:00 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-14 09:25:00 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-14 09:25:00 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-06-14 09:25:03 +0800
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (90.0ms)
+  Rendered users/new.html.erb within layouts/application (117.0ms)
+Completed 200 OK in 141ms (Views: 133.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-14 09:25:03 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-14 09:25:03 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-14 09:25:03 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-14 09:25:03 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-14 09:25:03 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateBooks (20120612060136)
+Migrating to CreateUsers (20120613131052)
+Migrating to CreateBorrows (20120614014520)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (28.0ms)[0m  CREATE TABLE "borrows" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "book_id" integer, "user_id" integer, "borrowed_date" datetime, "returned_date" datetime, "scheduled_return_date" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("borrows")[0m
+  [1m[35m (0.0ms)[0m  CREATE INDEX "index_borrows_on_book_id" ON "borrows" ("book_id")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("borrows")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_borrows_on_book_id')
+  [1m[36m (0.0ms)[0m  [1mCREATE INDEX "index_borrows_on_user_id" ON "borrows" ("user_id")[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120614014520')
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("books")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("borrows")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_borrows_on_user_id')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_borrows_on_book_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-14 10:23:55 +0800
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.0ms)[0m  SELECT "books".* FROM "books" LIMIT 5 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" [0m
+  Rendered books/index.html.erb within layouts/application (17.0ms)
+Compiled borrows.css  (4ms)  (pid 52144)
+Compiled application.css  (51ms)  (pid 52144)
+Compiled borrows.js  (455ms)  (pid 52144)
+Compiled application.js  (519ms)  (pid 52144)
+Completed 200 OK in 747ms (Views: 745.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-14 10:23:56 +0800
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-14 10:23:56 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-14 10:23:56 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-14 10:23:56 +0800
+Served asset /borrows.css - 200 OK (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-14 10:23:56 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-14 10:23:56 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-14 10:23:56 +0800
+Served asset /borrows.js - 200 OK (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-14 10:23:56 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-14 10:23:56 +0800
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/borrows/new" for 127.0.0.1 at 2012-06-14 10:24:03 +0800
+Processing by BorrowsController#new as HTML
+  Rendered borrows/_form.html.erb (89.0ms)
+  Rendered borrows/new.html.erb within layouts/application (93.0ms)
+Completed 500 Internal Server Error in 112ms
+
+ActionView::Template::Error (undefined method `book' for #<Borrow:0x33740b8>):
+    13: 
+    14:   <div class="field">
+    15:     <%= f.label :book %><br />
+    16:     <%= f.text_field :book %>
+    17:   </div>
+    18:   <div class="field">
+    19:     <%= f.label :user %><br />
+  app/views/borrows/_form.html.erb:16:in `block in _app_views_borrows__form_html_erb__145303575_27067632'
+  app/views/borrows/_form.html.erb:1:in `_app_views_borrows__form_html_erb__145303575_27067632'
+  app/views/borrows/new.html.erb:3:in `_app_views_borrows_new_html_erb___394325756_27060216'
+  app/controllers/borrows_controller.rb:29:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (23.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-14 10:29:06 +0800
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.0ms)[0m  SELECT "books".* FROM "books" LIMIT 5 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" [0m
+  Rendered books/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-14 10:29:07 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-14 10:29:07 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-14 10:29:07 +0800
+Served asset /borrows.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-14 10:29:07 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-14 10:29:07 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-14 10:29:07 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-14 10:29:07 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-14 10:29:07 +0800
+Served asset /books.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-14 10:29:07 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-14 10:29:07 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-14 10:29:07 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-14 10:35:28 +0800
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.0ms)[0m  SELECT "books".* FROM "books" LIMIT 5 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" [0m
+  Rendered books/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 32ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-14 10:35:28 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-14 10:35:28 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-14 10:35:28 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-14 10:35:28 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-14 10:35:28 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-14 10:35:28 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-14 10:35:28 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-14 10:35:28 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-14 10:35:28 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-14 10:35:28 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-14 10:35:28 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/borrows/new?book_id=1" for 127.0.0.1 at 2012-06-14 10:35:31 +0800
+Processing by BorrowsController#new as HTML
+  Parameters: {"book_id"=>"1"}
+  [1m[35mBook Load (1.0ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 10ms
+
+NoMethodError (undefined method `book=' for #<Borrow:0x3373230>):
+  app/controllers/borrows_controller.rb:29:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-14 11:04:00 +0800
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-14 11:04:00 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-14 11:04:00 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-14 11:04:00 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-14 11:04:00 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-14 11:04:00 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-14 11:04:00 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-14 11:04:00 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-14 11:04:00 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-14 11:04:00 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-14 11:04:00 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-14 11:04:01 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/books/1/borrows/new" for 127.0.0.1 at 2012-06-14 11:04:46 +0800
+Processing by BorrowsController#new as HTML
+  Parameters: {"book_id"=>"1"}
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered borrows/_form.html.erb (4.0ms)
+  Rendered borrows/new.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 44ms
+
+ActionView::Template::Error (undefined method `book' for #<Borrow:0x339b958>):
+    13: 
+    14:   <div class="field">
+    15:     <%= f.label :book %><br />
+    16:     <%= f.text_field :book %>
+    17:   </div>
+    18:   <div class="field">
+    19:     <%= f.label :user %><br />
+  app/views/borrows/_form.html.erb:16:in `block in _app_views_borrows__form_html_erb__145303575_27067632'
+  app/views/borrows/_form.html.erb:1:in `_app_views_borrows__form_html_erb__145303575_27067632'
+  app/views/borrows/new.html.erb:3:in `_app_views_borrows_new_html_erb___394325756_27060216'
+  app/controllers/borrows_controller.rb:30:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.0ms)
+
+
+Started GET "/books/1/borrows/new" for 127.0.0.1 at 2012-06-14 11:05:57 +0800
+Processing by BorrowsController#new as HTML
+  Parameters: {"book_id"=>"1"}
+  [1m[35mBook Load (1.0ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 28ms
+
+NoMethodError (undefined method `book=' for #<Borrow:0x33068d0>):
+  app/controllers/borrows_controller.rb:29:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-21 09:50:11 +0800
+
+SyntaxError (d:/Trials/Rails/projects/library/app/models/book.rb:3: syntax error, unexpected ':', expecting keyword_end
+	has_many :users :through => borrows
+	                 ^):
+  app/controllers/books_controller.rb:1:in `<top (required)>'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (46.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (137.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-21 09:51:56 +0800
+
+ActionController::RoutingError (undefined local variable or method `borrows' for #<Class:0x330ace0>):
+  app/models/book.rb:3:in `<class:Book>'
+  app/models/book.rb:1:in `<top (required)>'
+  app/controllers/books_controller.rb:1:in `<top (required)>'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-21 09:53:10 +0800
+
+ActionController::RoutingError (undefined local variable or method `borrows' for #<Class:0x3604b00>):
+  app/models/book.rb:3:in `<class:Book>'
+  app/models/book.rb:1:in `<top (required)>'
+  app/controllers/books_controller.rb:1:in `<top (required)>'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-21 09:54:40 +0800
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (1.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (83.0ms)
+Compiled sessions.css  (66ms)  (pid 29204)
+Compiled application.css  (100ms)  (pid 29204)
+Compiled sessions.js  (683ms)  (pid 29204)
+Compiled application.js  (746ms)  (pid 29204)
+Completed 200 OK in 1450ms (Views: 1448.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 09:54:41 +0800
+Served asset /application.css - 200 OK (43ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 09:54:41 +0800
+Served asset /books.css - 200 OK (4ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 09:54:41 +0800
+Served asset /borrows.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 09:54:41 +0800
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 09:54:41 +0800
+Served asset /sessions.css - 200 OK (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 09:54:41 +0800
+Served asset /users.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 09:54:41 +0800
+Served asset /jquery.js - 200 OK (23ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 09:54:41 +0800
+Served asset /jquery_ujs.js - 200 OK (7ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 09:54:42 +0800
+Served asset /books.js - 200 OK (4ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 09:54:42 +0800
+Served asset /borrows.js - 200 OK (4ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 09:54:42 +0800
+Served asset /sessions.js - 200 OK (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 09:54:42 +0800
+Served asset /users.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 09:54:42 +0800
+Served asset /application.js - 200 OK (11ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-21 09:59:31 +0800
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (105.0ms)
+  Rendered users/new.html.erb within layouts/application (124.0ms)
+Completed 200 OK in 190ms (Views: 183.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 09:59:31 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 09:59:31 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-21 10:00:56 +0800
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (1024.1ms)
+  Rendered users/new.html.erb within layouts/application (1028.1ms)
+Completed 500 Internal Server Error in 1038ms
+
+ActionView::Template::Error (undefined method `password' for #<ActionView::Helpers::FormBuilder:0x35ed4f0>):
+    21:   </div>
+    22:   <div class="field">
+    23:     <%= f.label :password %><br />
+    24:     <%= f.password :password %>
+    25:   </div>
+    26:   <div class="actions">
+    27:     <%= f.submit %>
+  app/views/users/_form.html.erb:24:in `block in _app_views_users__form_html_erb___156117971_28285620'
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb___156117971_28285620'
+  app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb___975169625_28283484'
+  app/controllers/users_controller.rb:29:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-21 10:01:16 +0800
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (891.1ms)
+  Rendered users/new.html.erb within layouts/application (896.1ms)
+Completed 500 Internal Server Error in 905ms
+
+ActionView::Template::Error (undefined method `text_password' for #<ActionView::Helpers::FormBuilder:0x3304920>):
+    21:   </div>
+    22:   <div class="field">
+    23:     <%= f.label :password %><br />
+    24:     <%= f.text_password :password %>
+    25:   </div>
+    26:   <div class="actions">
+    27:     <%= f.submit %>
+  app/views/users/_form.html.erb:24:in `block in _app_views_users__form_html_erb___156117971_26721948'
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb___156117971_26721948'
+  app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb___975169625_28283484'
+  app/controllers/users_controller.rb:29:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-06-21 10:04:39 +0800
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (4.0ms)
+  Rendered users/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 10:04:39 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 10:04:39 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 10:04:39 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 10:04:39 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 10:04:39 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 10:04:39 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 10:04:39 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 10:04:39 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 10:04:39 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 10:04:39 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 10:04:39 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 10:04:39 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 10:04:39 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-06-21 10:05:00 +0800
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWYn5BKsM4qQNGZQvhxAr73GGxfUxmS4lE44nQQPLOo=", "user"=>{"name"=>"test", "email"=>"test@test.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (134.0ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Thu, 21 Jun 2012 02:05:00 UTC +00:00], ["email", "test@test.com"], ["name", "test"], ["password", "test"], ["updated_at", Thu, 21 Jun 2012 02:05:00 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:8080/users/1
+Completed 302 Found in 145ms (ActiveRecord: 140.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-21 10:05:00 +0800
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 10:05:00 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 10:05:00 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 10:05:00 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 10:05:00 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 10:05:00 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 10:05:00 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 10:05:00 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 10:05:00 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 10:05:00 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 10:05:00 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 10:05:00 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 10:05:00 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 10:05:00 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2012-06-21 10:05:09 +0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 10:05:09 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 10:05:09 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 10:05:09 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 10:05:09 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 10:05:09 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 10:05:09 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 10:05:09 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 10:05:09 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 10:05:09 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 10:05:09 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 10:05:09 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 10:05:09 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 10:05:09 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-06-21 10:40:36 +0800
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (1.0ms)[0m  SELECT "books".* FROM "books" LIMIT 5 OFFSET 0
+  Rendered books/index.html.erb within layouts/application (312.0ms)
+Completed 500 Internal Server Error in 327ms
+
+ActionView::Template::Error (undefined method `isLogin?' for #<#<Class:0x35db340>:0x35e12c8>):
+    2: 	<% @books.each do |book| %>
+    3: 		<li>
+    4: 		<%= book.name %>
+    5: 		<%= link_to "Borrow", :controller => :borrows, :action => :new, :book_id => book.id if isLogin? %>
+    6: 		<%= link_to "View", book_path(book) %>
+    7: 		<%= link_to "Edit", edit_book_path(book) %>
+    8: 		<%= link_to "Delete", book_path(book), :method => :delete %>
+  app/views/books/index.html.erb:5:in `block in _app_views_books_index_html_erb__701463392_28246068'
+  app/views/books/index.html.erb:2:in `_app_views_books_index_html_erb__701463392_28246068'
+  app/controllers/books_controller.rb:7:in `index'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (20.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (28.0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-06-21 10:41:15 +0800
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (1.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 10:41:15 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 10:41:15 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 10:41:15 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 10:41:15 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 10:41:15 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 10:41:15 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 10:41:15 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 10:41:15 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 10:41:15 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 10:41:16 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 10:41:16 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 10:41:16 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 10:41:16 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-06-21 10:41:36 +0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 10:41:36 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 10:41:36 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 10:41:36 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 10:41:36 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 10:41:36 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 10:41:36 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 10:41:36 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 10:41:36 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 10:41:36 +0800
+Served asset /books.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 10:41:36 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 10:41:36 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 10:41:36 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 10:41:36 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-06-21 10:41:39 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWYn5BKsM4qQNGZQvhxAr73GGxfUxmS4lE44nQQPLOo=", "session"=>{"name"=>"test@test.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+Completed 500 Internal Server Error in 12ms
+
+NoMethodError (undefined method `authenticate' for #<Class:0x386e800>):
+  app/controllers/sessions_controller.rb:7:in `create'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-06-21 10:46:57 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWYn5BKsM4qQNGZQvhxAr73GGxfUxmS4lE44nQQPLOo=", "session"=>{"name"=>"test@test.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+Completed 500 Internal Server Error in 15ms
+
+NoMethodError (undefined method `atrr_accessible' for #<Class:0x35db8f8>):
+  app/models/user.rb:5:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/sessions_controller.rb:7:in `create'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-06-21 10:48:00 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWYn5BKsM4qQNGZQvhxAr73GGxfUxmS4lE44nQQPLOo=", "session"=>{"name"=>"test@test.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."name" = 'test@test.com' AND "users"."password" = 'test' LIMIT 1[0m
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 562ms (Views: 82.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 10:48:01 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 10:48:01 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 10:48:01 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 10:48:01 +0800
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 10:48:01 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 10:48:01 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:01 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:01 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:01 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:01 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:01 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:01 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:01 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-06-21 10:48:04 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWYn5BKsM4qQNGZQvhxAr73GGxfUxmS4lE44nQQPLOo=", "session"=>{"name"=>"test@test.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'test@test.com' AND "users"."password" = 'test' LIMIT 1
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 10:48:04 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 10:48:04 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 10:48:04 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 10:48:04 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 10:48:04 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 10:48:04 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:04 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:04 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:04 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:04 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:04 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:04 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:04 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-06-21 10:48:07 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWYn5BKsM4qQNGZQvhxAr73GGxfUxmS4lE44nQQPLOo=", "session"=>{"name"=>"test@test.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."name" = 'test@test.com' AND "users"."password" = 'test' LIMIT 1[0m
+  Rendered sessions/new.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 38ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 10:48:07 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 10:48:07 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 10:48:07 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 10:48:07 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 10:48:07 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 10:48:07 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:07 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:07 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:07 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:07 +0800
+Served asset /borrows.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:07 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:07 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 10:48:07 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-06-21 10:50:11 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWYn5BKsM4qQNGZQvhxAr73GGxfUxmS4lE44nQQPLOo=", "session"=>{"name"=>"test", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'test' AND "users"."password" = 'test' LIMIT 1
+Completed 500 Internal Server Error in 235ms
+
+NoMethodError (undefined method `sign_in' for #<SessionsController:0x32e2738>):
+  app/controllers/sessions_controller.rb:14:in `create'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-06-21 10:52:06 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWYn5BKsM4qQNGZQvhxAr73GGxfUxmS4lE44nQQPLOo=", "session"=>{"name"=>"test", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."name" = 'test' AND "users"."password" = 'test' LIMIT 1[0m
+Completed 500 Internal Server Error in 259ms
+
+NoMethodError (undefined method `sign_in' for #<SessionsController:0x3582678>):
+  app/controllers/sessions_controller.rb:14:in `create'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-06-21 10:52:17 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWYn5BKsM4qQNGZQvhxAr73GGxfUxmS4lE44nQQPLOo=", "session"=>{"name"=>"test", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'test' AND "users"."password" = 'test' LIMIT 1
+Completed 500 Internal Server Error in 229ms
+
+NoMethodError (undefined method `sign_in' for #<SessionsController:0x365b740>):
+  app/controllers/sessions_controller.rb:14:in `create'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-06-21 10:53:40 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWYn5BKsM4qQNGZQvhxAr73GGxfUxmS4lE44nQQPLOo=", "session"=>{"name"=>"test", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."name" = 'test' AND "users"."password" = 'test' LIMIT 1[0m
+Completed 500 Internal Server Error in 217ms
+
+NoMethodError (undefined method `sign_in' for #<SessionsController:0x3489168>):
+  app/controllers/sessions_controller.rb:14:in `create'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-06-21 10:53:44 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWYn5BKsM4qQNGZQvhxAr73GGxfUxmS4lE44nQQPLOo=", "session"=>{"name"=>"test", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'test' AND "users"."password" = 'test' LIMIT 1
+Completed 500 Internal Server Error in 236ms
+
+NoMethodError (undefined method `sign_in' for #<SessionsController:0x3668a90>):
+  app/controllers/sessions_controller.rb:14:in `create'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-06-21 10:54:17 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWYn5BKsM4qQNGZQvhxAr73GGxfUxmS4lE44nQQPLOo=", "session"=>{"name"=>"test", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."name" = 'test' AND "users"."password" = 'test' LIMIT 1[0m
+Completed 500 Internal Server Error in 244ms
+
+NoMethodError (undefined method `sign_in' for #<SessionsController:0x3592e48>):
+  app/controllers/sessions_controller.rb:14:in `create'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-06-21 10:54:41 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWYn5BKsM4qQNGZQvhxAr73GGxfUxmS4lE44nQQPLOo=", "session"=>{"name"=>"test", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'test' AND "users"."password" = 'test' LIMIT 1
+Redirected to http://localhost:8080/users/1
+Completed 302 Found in 22ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-06-21 10:54:41 +0800
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (20.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 74ms (Views: 52.0ms | ActiveRecord: 20.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 10:54:41 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 10:54:41 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 10:54:41 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 10:54:41 +0800
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 10:54:41 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 10:54:41 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:41 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:41 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:41 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:41 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:41 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:41 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:41 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2012-06-21 10:54:49 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" 
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 10:54:49 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 10:54:49 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 10:54:49 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 10:54:49 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 10:54:49 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 10:54:49 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:49 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:49 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:49 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:49 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:49 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:49 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:49 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-06-21 10:54:56 +0800
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 10:54:56 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 10:54:56 +0800
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 10:54:56 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 10:54:56 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 10:54:56 +0800
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 10:54:56 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:56 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:56 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:56 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:56 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:56 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:56 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 10:54:56 +0800
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-06-21 11:20:38 +0800
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "books" 
+  Rendered books/index.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 65ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 11:20:38 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 11:20:38 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 11:20:38 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 11:20:38 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 11:20:38 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 11:20:38 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 11:20:38 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 11:20:38 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 11:20:39 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 11:20:39 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 11:20:39 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 11:20:39 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 11:20:39 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books/1/borrows/new" for 127.0.0.1 at 2012-06-21 11:20:52 +0800
+
+SyntaxError (d:/Trials/Rails/projects/library/app/controllers/borrows_controller.rb:88: syntax error, unexpected $end, expecting keyword_end):
+  activesupport (3.2.1) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.1) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.1) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.1) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.1) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.1) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.1) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.1) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.1) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.1) lib/active_support/inflector/methods.rb:229:in `block in constantize'
+  activesupport (3.2.1) lib/active_support/inflector/methods.rb:228:in `each'
+  activesupport (3.2.1) lib/active_support/inflector/methods.rb:228:in `constantize'
+  activesupport (3.2.1) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:62:in `controller_reference'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:47:in `controller'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:589:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.1) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `_run__408182390__call__762638127__callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (41.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (52.0ms)
+
+
+Started GET "/books/1/borrows/new" for 127.0.0.1 at 2012-06-21 11:22:31 +0800
+Processing by BorrowsController#new as HTML
+  Parameters: {"book_id"=>"1"}
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (30.0ms)[0m  [1mINSERT INTO "borrows" ("book_id", "borrowed_date", "created_at", "returned_date", "scheduled_return_date", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["book_id", 1], ["borrowed_date", nil], ["created_at", Thu, 21 Jun 2012 03:22:31 UTC +00:00], ["returned_date", nil], ["scheduled_return_date", nil], ["updated_at", Thu, 21 Jun 2012 03:22:31 UTC +00:00], ["user_id", 1]]
+  [1m[35m (36.0ms)[0m  commit transaction
+Redirected to http://localhost:8080/users/1/books
+Completed 500 Internal Server Error in 144ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/borrows_controller.rb:35:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/books/1/borrows/new" for 127.0.0.1 at 2012-06-21 11:24:00 +0800
+Processing by BorrowsController#new as HTML
+  Parameters: {"book_id"=>"1"}
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "borrows" ("book_id", "borrowed_date", "created_at", "returned_date", "scheduled_return_date", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["book_id", 1], ["borrowed_date", nil], ["created_at", Thu, 21 Jun 2012 03:24:00 UTC +00:00], ["returned_date", nil], ["scheduled_return_date", nil], ["updated_at", Thu, 21 Jun 2012 03:24:00 UTC +00:00], ["user_id", 1]]
+  [1m[35m (5.0ms)[0m  commit transaction
+Redirected to http://localhost:8080/users/1/books
+Completed 302 Found in 40ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/users/1/books" for 127.0.0.1 at 2012-06-21 11:24:00 +0800
+Processing by BorrowsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[36mBorrow Load (1.0ms)[0m  [1mSELECT "borrows".* FROM "borrows" [0m
+  [1m[35mBorrow Load (0.0ms)[0m  SELECT "borrows".* FROM "borrows" WHERE "borrows"."user_id" = 1 LIMIT 1
+  Rendered borrows/index.html.erb within layouts/application (45.0ms)
+Completed 500 Internal Server Error in 57ms
+
+ActionView::Template::Error (undefined method `each' for #<Borrow:0x3572ef8>):
+    12:     <th></th>
+    13:   </tr>
+    14: 
+    15: <% @books.each do |book| %>
+    16:   <tr>
+    17:     <td><%= book.name %></td>
+    18:     <td><%= link_to 'Show', book_path(book) %></td>
+  app/views/borrows/index.html.erb:15:in `_app_views_borrows_index_html_erb__90281303_28030692'
+  app/controllers/borrows_controller.rb:8:in `index'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.0ms)
+
+
+Started GET "/users/1/books" for 127.0.0.1 at 2012-06-21 11:24:57 +0800
+Processing by BorrowsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[36mBorrow Load (0.0ms)[0m  [1mSELECT "borrows".* FROM "borrows" [0m
+  [1m[35mBorrow Load (0.0ms)[0m  SELECT "borrows".* FROM "borrows" WHERE "borrows"."user_id" = 1
+  Rendered borrows/index.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (undefined method `name' for #<Borrow:0x35bf488>):
+    14: 
+    15: <% @books.each do |book| %>
+    16:   <tr>
+    17:     <td><%= book.name %></td>
+    18:     <td><%= link_to 'Show', book_path(book) %></td>
+    19:     <td><%= link_to 'return' %></td>
+    20:   </tr>
+  app/views/borrows/index.html.erb:17:in `block in _app_views_borrows_index_html_erb__90281303_28030692'
+  app/views/borrows/index.html.erb:15:in `_app_views_borrows_index_html_erb__90281303_28030692'
+  app/controllers/borrows_controller.rb:8:in `index'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
+
+
+Started GET "/users/1/books" for 127.0.0.1 at 2012-06-21 11:27:35 +0800
+Processing by BorrowsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[36mBorrow Load (0.0ms)[0m  [1mSELECT "borrows".* FROM "borrows" [0m
+Completed 500 Internal Server Error in 39ms
+
+NoMethodError (undefined method `books' for #<Class:0x3656e20>):
+  app/controllers/borrows_controller.rb:6:in `index'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/users/1/books" for 127.0.0.1 at 2012-06-21 11:28:23 +0800
+Processing by BorrowsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mBorrow Load (0.0ms)[0m  SELECT "borrows".* FROM "borrows" 
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered borrows/index.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 354ms
+
+ActionView::Template::Error (uninitialized constant User::Books):
+    12:     <th></th>
+    13:   </tr>
+    14: 
+    15: <% @books.each do |book| %>
+    16:   <tr>
+    17:     <td><%= book.name %></td>
+    18:     <td><%= link_to 'Show', book_path(book) %></td>
+  app/views/borrows/index.html.erb:15:in `_app_views_borrows_index_html_erb__90281303_28030692'
+  app/controllers/borrows_controller.rb:8:in `index'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
+
+
+Started GET "/users/1/books" for 127.0.0.1 at 2012-06-21 11:30:28 +0800
+Processing by BorrowsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mBorrow Load (0.0ms)[0m  SELECT "borrows".* FROM "borrows" 
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered borrows/index.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 61ms
+
+ActionView::Template::Error (uninitialized constant User::Books):
+    12:     <th></th>
+    13:   </tr>
+    14: 
+    15: <% @books.each do |book| %>
+    16:   <tr>
+    17:     <td><%= book.name %></td>
+    18:     <td><%= link_to 'Show', book_path(book) %></td>
+  app/views/borrows/index.html.erb:15:in `_app_views_borrows_index_html_erb__90281303_28030692'
+  app/controllers/borrows_controller.rb:9:in `index'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
+
+
+Started GET "/users/1/books" for 127.0.0.1 at 2012-06-21 11:30:34 +0800
+Processing by BorrowsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mBorrow Load (1.0ms)[0m  SELECT "borrows".* FROM "borrows" 
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered borrows/index.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (uninitialized constant User::Books):
+    12:     <th></th>
+    13:   </tr>
+    14: 
+    15: <% @books.each do |book| %>
+    16:   <tr>
+    17:     <td><%= book.name %></td>
+    18:     <td><%= link_to 'Show', book_path(book) %></td>
+  app/views/borrows/index.html.erb:15:in `_app_views_borrows_index_html_erb__90281303_28030692'
+  app/controllers/borrows_controller.rb:9:in `index'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (21.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.0ms)
+
+
+Started GET "/users/1/books" for 127.0.0.1 at 2012-06-21 11:30:35 +0800
+Processing by BorrowsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mBorrow Load (1.0ms)[0m  SELECT "borrows".* FROM "borrows" 
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered borrows/index.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (uninitialized constant User::Books):
+    12:     <th></th>
+    13:   </tr>
+    14: 
+    15: <% @books.each do |book| %>
+    16:   <tr>
+    17:     <td><%= book.name %></td>
+    18:     <td><%= link_to 'Show', book_path(book) %></td>
+  app/views/borrows/index.html.erb:15:in `_app_views_borrows_index_html_erb__90281303_28030692'
+  app/controllers/borrows_controller.rb:9:in `index'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.0ms)
+
+
+Started GET "/users/1/books" for 127.0.0.1 at 2012-06-21 11:30:36 +0800
+Processing by BorrowsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mBorrow Load (1.0ms)[0m  SELECT "borrows".* FROM "borrows" 
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered borrows/index.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (uninitialized constant User::Books):
+    12:     <th></th>
+    13:   </tr>
+    14: 
+    15: <% @books.each do |book| %>
+    16:   <tr>
+    17:     <td><%= book.name %></td>
+    18:     <td><%= link_to 'Show', book_path(book) %></td>
+  app/views/borrows/index.html.erb:15:in `_app_views_borrows_index_html_erb__90281303_28030692'
+  app/controllers/borrows_controller.rb:9:in `index'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.0ms)
+
+
+Started GET "/users/1/books" for 127.0.0.1 at 2012-06-21 11:30:36 +0800
+Processing by BorrowsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mBorrow Load (0.0ms)[0m  SELECT "borrows".* FROM "borrows" 
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered borrows/index.html.erb within layouts/application (11.0ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (uninitialized constant User::Books):
+    12:     <th></th>
+    13:   </tr>
+    14: 
+    15: <% @books.each do |book| %>
+    16:   <tr>
+    17:     <td><%= book.name %></td>
+    18:     <td><%= link_to 'Show', book_path(book) %></td>
+  app/views/borrows/index.html.erb:15:in `_app_views_borrows_index_html_erb__90281303_28030692'
+  app/controllers/borrows_controller.rb:9:in `index'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (35.0ms)
+
+
+Started GET "/users/1/books" for 127.0.0.1 at 2012-06-21 11:30:37 +0800
+Processing by BorrowsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mBorrow Load (1.0ms)[0m  SELECT "borrows".* FROM "borrows" 
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered borrows/index.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (uninitialized constant User::Books):
+    12:     <th></th>
+    13:   </tr>
+    14: 
+    15: <% @books.each do |book| %>
+    16:   <tr>
+    17:     <td><%= book.name %></td>
+    18:     <td><%= link_to 'Show', book_path(book) %></td>
+  app/views/borrows/index.html.erb:15:in `_app_views_borrows_index_html_erb__90281303_28030692'
+  app/controllers/borrows_controller.rb:9:in `index'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
+
+
+Started GET "/users/1/books" for 127.0.0.1 at 2012-06-21 11:30:37 +0800
+Processing by BorrowsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mBorrow Load (0.0ms)[0m  SELECT "borrows".* FROM "borrows" 
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered borrows/index.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (uninitialized constant User::Books):
+    12:     <th></th>
+    13:   </tr>
+    14: 
+    15: <% @books.each do |book| %>
+    16:   <tr>
+    17:     <td><%= book.name %></td>
+    18:     <td><%= link_to 'Show', book_path(book) %></td>
+  app/views/borrows/index.html.erb:15:in `_app_views_borrows_index_html_erb__90281303_28030692'
+  app/controllers/borrows_controller.rb:9:in `index'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.0ms)
+
+
+Started GET "/users/1/books" for 127.0.0.1 at 2012-06-21 11:30:37 +0800
+Processing by BorrowsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mBorrow Load (1.0ms)[0m  SELECT "borrows".* FROM "borrows" 
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered borrows/index.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (uninitialized constant User::Books):
+    12:     <th></th>
+    13:   </tr>
+    14: 
+    15: <% @books.each do |book| %>
+    16:   <tr>
+    17:     <td><%= book.name %></td>
+    18:     <td><%= link_to 'Show', book_path(book) %></td>
+  app/views/borrows/index.html.erb:15:in `_app_views_borrows_index_html_erb__90281303_28030692'
+  app/controllers/borrows_controller.rb:9:in `index'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.0ms)
+
+
+Started GET "/users/1/books" for 127.0.0.1 at 2012-06-21 11:30:38 +0800
+Processing by BorrowsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mBorrow Load (0.0ms)[0m  SELECT "borrows".* FROM "borrows" 
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered borrows/index.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (uninitialized constant User::Books):
+    12:     <th></th>
+    13:   </tr>
+    14: 
+    15: <% @books.each do |book| %>
+    16:   <tr>
+    17:     <td><%= book.name %></td>
+    18:     <td><%= link_to 'Show', book_path(book) %></td>
+  app/views/borrows/index.html.erb:15:in `_app_views_borrows_index_html_erb__90281303_28030692'
+  app/controllers/borrows_controller.rb:9:in `index'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
+
+
+Started GET "/users/1/books" for 127.0.0.1 at 2012-06-21 11:36:33 +0800
+Processing by BorrowsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mBorrow Load (0.0ms)[0m  SELECT "borrows".* FROM "borrows" 
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBook Load (1.0ms)[0m  SELECT "books".* FROM "books" INNER JOIN "borrows" ON "books"."id" = "borrows"."book_id" WHERE "borrows"."user_id" = 1
+  Rendered borrows/index.html.erb within layouts/application (224.0ms)
+Completed 200 OK in 320ms (Views: 268.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 11:36:33 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 11:36:33 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 11:36:33 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 11:36:33 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 11:36:34 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 11:36:34 +0800
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 11:36:34 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 11:36:34 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 11:36:34 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 11:36:34 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 11:36:34 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 11:36:34 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 11:36:34 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books/1" for 127.0.0.1 at 2012-06-21 11:36:50 +0800
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered books/show.html.erb within layouts/application (153.0ms)
+Completed 200 OK in 190ms (Views: 188.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 11:36:50 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 11:36:50 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 11:36:50 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 11:36:50 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 11:36:50 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 11:36:50 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 11:36:50 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 11:36:50 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 11:36:50 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 11:36:51 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 11:36:51 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 11:36:51 +0800
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 11:36:51 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-06-21 11:37:01 +0800
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.0ms)[0m  SELECT "books".* FROM "books" LIMIT 5 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" [0m
+  Rendered books/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:01 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:01 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:01 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:01 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:01 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:01 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:01 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:01 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:01 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:01 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:01 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:01 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:01 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/books/1/borrows/new" for 127.0.0.1 at 2012-06-21 11:37:06 +0800
+Processing by BorrowsController#new as HTML
+  Parameters: {"book_id"=>"1"}
+  [1m[35mBook Load (0.0ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (17.0ms)[0m  INSERT INTO "borrows" ("book_id", "borrowed_date", "created_at", "returned_date", "scheduled_return_date", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?)  [["book_id", 1], ["borrowed_date", nil], ["created_at", Thu, 21 Jun 2012 03:37:06 UTC +00:00], ["returned_date", nil], ["scheduled_return_date", nil], ["updated_at", Thu, 21 Jun 2012 03:37:06 UTC +00:00], ["user_id", 1]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:8080/users/1/books
+Completed 302 Found in 30ms (ActiveRecord: 23.0ms)
+
+
+Started GET "/users/1/books" for 127.0.0.1 at 2012-06-21 11:37:06 +0800
+Processing by BorrowsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mBorrow Load (1.0ms)[0m  SELECT "borrows".* FROM "borrows" 
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBook Load (0.0ms)[0m  SELECT "books".* FROM "books" INNER JOIN "borrows" ON "books"."id" = "borrows"."book_id" WHERE "borrows"."user_id" = 1
+  Rendered borrows/index.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 40ms (Views: 38.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:06 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:06 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:06 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:06 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:06 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:06 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:06 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:06 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:06 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:06 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:06 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:06 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:06 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/books/1" for 127.0.0.1 at 2012-06-21 11:37:09 +0800
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.0ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered books/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:09 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:09 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:09 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:09 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:09 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:09 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:09 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:09 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:09 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:09 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:09 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:09 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:09 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2012-06-21 11:37:10 +0800
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.0ms)[0m  SELECT "books".* FROM "books" LIMIT 5 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" [0m
+  Rendered books/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:11 +0800
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:11 +0800
+Served asset /borrows.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:11 +0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:11 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:11 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-21 11:37:11 +0800
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:11 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:11 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:11 +0800
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/borrows.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:11 +0800
+Served asset /borrows.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:11 +0800
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:11 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-21 11:37:11 +0800
+Served asset /application.js - 304 Not Modified (0ms)
